@@ -127,7 +127,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Browser \
     CustomDoze \
-    GalleryGoPrebuilt \
     Longshot \
     OmniStyle \
     PixelThemesStub2019 \
