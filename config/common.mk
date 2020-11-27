@@ -132,7 +132,13 @@ PRODUCT_PACKAGES += \
     PixelThemesStub2019 \
     ShadyQuickStep \
     SoundPickerPrebuilt \
-    TouchGestures
+    TouchGestures \
+    MarkupGoogle
+
+# Markup libs
+PRODUCT_COPY_FILES += \
+    vendor/havoc/prebuilt/common/lib/libsketchology_native.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsketchology_native.so \
+    vendor/havoc/prebuilt/common/lib64/libsketchology_native.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsketchology_native.so
 
 # Accents
 PRODUCT_PACKAGES += \
